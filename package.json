@@ -1,0 +1,11 @@
+{
+    "name":    "aufgaben-ws-13-14",
+    "version": "0.0.1",
+    "devDependencies": {
+        "mocha": "1.x",
+        "chai": "1.x"
+    },
+    "scripts": {
+        "test": "node node_modules/mocha/bin/mocha -R spec"
+    }
+}
