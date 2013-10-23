@@ -12,6 +12,19 @@ Der `MemoryStore` implementiert ein fiktives Datenbank-Interface zum Speichern u
 
 Die genaue Spezifikation findet ihr im Test `aufgabe2/test/MemoryStore.test.js`. Hier die Anforderung jedoch zusätzlich in Prosa.
 
+
+Die Tests erwarten, dass beide Klassen in `aufgabe2/lib` liegen. Legt also z.B. für den MemoryStore die Datei `aufgabe2/lib/MemoryStore.js` an und schreibt in diese Datei:
+
+```javascript
+function MemoryStore() {}
+
+// Hier kommt eure Implementierung
+
+module.exports = MemoryStore;
+```
+
+`module.exports` exportiert den MemoryStore, so dass der Test darauf zugreifen kann.
+
 #### MemoryStore()
 
 Der `MemoryStore` ist eine `function`
