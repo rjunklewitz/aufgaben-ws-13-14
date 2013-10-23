@@ -113,7 +113,13 @@ Der `ChatServer` wird mit zwei `Store`-Implementierungen instanziiert, dem `user
 
 #### ChatServer.prototype: Object
 
-Der `ChatServer.prototype` soll von [`EventEmitter.prototype`](http://nodejs.org/api/events.html#events_class_events_eventemitter) aberben und außerdem folgende Eigenschaften besitzen.
+Der `ChatServer.prototype` soll von [`EventEmitter.prototype`](http://nodejs.org/api/events.html#events_class_events_eventemitter) aberben. Damit ihr den [EventEmitter](http://nodejs.org/api/events.html#events_class_events_eventemitter) in eurem Modul verwenden könnt, müsst ihr ihn vorher importieren:
+
+```javascript
+var EventEmitter = require("events").EventEmitter;
+```
+
+Des Weiteren besitzt der `ChatServer` folgende Eigenschaften.
 
 #### ChatServer.prototype.addUser(user: Item): *
 
