@@ -1,0 +1,13 @@
+{
+    "name":    "aufgabe3",
+    "version": "0.0.1",
+    "scripts": {
+        "test": "node node_modules/mocha/bin/mocha -R spec"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "1.x",
+        "sinon-chai": "2.x",
+        "mocha": "1.x"
+    }
+}
